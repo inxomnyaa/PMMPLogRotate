@@ -1,0 +1,13 @@
+---
+name: PMMPLogRotate
+main: xenialdan\PMMPLogRotate\Loader
+version: 1.0.0
+api: 4.0.0+dev
+load: STARTUP
+authors:
+- XenialDan
+description: Log rotation for pmmp
+permissions:
+  logrotate.command:
+    default: op
+...
